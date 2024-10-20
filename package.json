@@ -1,14 +1,13 @@
 {
-  "name": "profile-management",
-  "version": "0.0.1",
-  "description": "profile-management json-server app",
+  "name": "json-server-deployment",
+  "version": "1.0.0",
+  "description": "Simple JSON Server API for deployment",
   "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3000"
   },
-  "author": "Swathi",
-  "license": "MIT",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.0"
   }
 }
