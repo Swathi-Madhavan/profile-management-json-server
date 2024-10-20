@@ -1,0 +1,14 @@
+{
+  "name": "profile-management",
+  "version": "0.0.1",
+  "description": "profile-management json-server app",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 8000"
+  },
+  "author": "Swathi",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
